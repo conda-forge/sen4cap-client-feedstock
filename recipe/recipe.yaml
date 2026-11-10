@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.0"
+  version: "0.3.0"
   python_min: "3.12"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/Sen4CAP/sen4cap-client/archive/v${{ version }}.tar.gz
-  sha256: c437d0fe8c75cfeee47a92bf19bf65adad1ad66dbfdc3b6275abb469de64e04b
+  sha256: d9fe6ae18b4439e2b3a7088bec70269936e090833d0b2f2f799cbffa6fd3279e
 
 build:
   number: 0
@@ -38,8 +38,8 @@ requirements:
     - typer
     - uri-template
     - xarray
-    - cuiman >=0.3.1
-    - gavicore >=0.3.0
+    - cuiman >=0.4.0
+    - gavicore >=0.4.0
 
 tests:
   - python:
